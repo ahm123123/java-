@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+     function convert()
+     {
+        var a=parseInt(document.getElementById("t1").value);
+
+        var c=(a*9/5)+32;
+        document.getElementById("t3").value=c;
+      }
+    </script>
+   
+</head>
+<body>
+  
+        <table border="4" bgcolor="tomato" width="500" height="0">
+            <td style="text-align: center;"> <h1> <b> <i> <u> Celsius To Fahrenheit </h1></td>
+        </table>
+
+        <form>
+        <table bgcolor="pink" border="4" width="500" height="200"> 
+            <th>Enter Temperature in Celsius : <input type="text" id="t1"> <br> <br>
+                RESULT - (After  Convertion)   : <input type="text" id="t3"> <br> <br>
+                <button type="button" onclick="convert()">Convert</button>
+                <button type="button" onclick="reset()">Reset</button>
+            </th>   
+        </table>
+    </form>
+
+   
+</body>
+</html>

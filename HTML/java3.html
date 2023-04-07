@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+
+        function concatenate(first,last)
+        {
+            var full;
+            document.write("Inside Concatenate <br>");
+            full = first + last;
+            return full;
+        }
+
+
+
+        function secondfunction()
+        {
+            var result;
+            document.write("Start from here <br>");
+            result = concatenate('Tont','stark');
+            document.write("Stop <br>");
+            document.write(result);
+        }
+    </script>
+</head>
+<body>
+   <p>Click the following button to call the function</p>
+   <input type="button"onclick="secondfunction()"value="Click me">
+</body>
+</html>
